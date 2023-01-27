@@ -1,0 +1,23 @@
+Source:;C:\moje\Projekty\Induction_motor_soft_start\Induction_motor_soft_start.sch
+Date:;27.01.2023 21:29:21
+Generator:;C:\Programy\KiCad\bom_scripts/bom_csv_grouped_by_value.py
+Component Count:;26
+
+Individual Components:
+
+To import to mouser.com delete all rows above include this
+Item;Qty;Reference(s);Value;LibPart;Footprint;Datasheet;Dystrybutor;manf#
+1;1;C1;10u;Device:CP;;~;https://www.tme.eu/pl/details/pj2g100mnn1020/kondensatory-elektrolityczne-tht/elite/;PJ2G100MNN1020
+2;1;C2;10u;Device:C_Small;;~;https://www.tme.eu/pl/details/cl21a106kaynnne/kondensatory-mlcc-smd/samsung/;CL21A106KAYNNNE
+3;5;"D1; D2; D3; D4; D5";LED;Device:LED;;~;;
+4;2;"J1; J2";Conn_01x12;Connector_Generic:Conn_01x12;;~;;
+5;1;R1;100K/2W;Device:R_Small;;~;https://www.tme.eu/pl/details/pr02-100k/rezystory-tht/vishay/pr02000201003ja100/;PR02000201003JA100
+6;6;"R10; R5; R6; R7; R8; R9";330R;Device:R_Small;;~;https://www.tme.eu/pl/details/1_4ws330r/rezystory-tht/royal-ohm/cfr0s4j0331a50/;CFR0S4J0331A50
+7;2;"R11; R3";100R;Device:R_Small;;~;https://www.tme.eu/pl/details/mbb02070c1000fct00/rezystory-tht/vishay/;MBB02070C1000FCT00
+8;2;"R12; R2";4K7;Device:R_Small;;~;https://www.tme.eu/pl/details/cf1_4w-4k7/rezystory-tht/sr-passives/;CF1/4W-4K7
+9;1;R4;10K;Device:R_Small;;~;https://www.tme.eu/pl/details/1_4ws330r/rezystory-tht/royal-ohm/cfr0s4j0331a50/;CFR0S4J0331A50
+10;1;RV1;10D471K/300AC;Device:Varistor;;~;;
+11;1;RV2;10K;Device:R_POT_Small;;~;https://www.tme.eu/pl/details/r9011-2-10k/potencjometry-jednoobrotowe-weglowe/sr-passives/;R9011-2-10K
+12;1;SW1;Manual triggering;Switch:SW_Push;;~;;
+13;1;U1;SFH620A-3;Isolator:SFH620A-3;Package_DIP:DIP-4_W7.62mm;http://www.vishay.com/docs/83675/sfh620a.pdf;https://www.tme.eu/pl/details/sfh620a-3/transoptory-wyjscie-analogowe/vishay/;SFH620A-3
+14;1;U2;EL817;Isolator:EL817;Housings_DIP:DIP-4_W7.62mm;http://www.everlight.com/file/ProductFile/EL817.pdf;https://www.tme.eu/pl/details/el817/transoptory-wyjscie-analogowe/everlight/;EL817
