@@ -1,4 +1,4 @@
-.raw
-.txt
-.pdf
-.sch-bak
+*.raw
+*.txt
+*.pdf
+*.sch-bak
