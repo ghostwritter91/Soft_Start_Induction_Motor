@@ -1,0 +1,665 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+                              C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o (exit)
+c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+                              examples/src/adc_basic_example.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+ADC_0_measurement_normalized
+                    0x1               examples/src/adc_basic_example.o
+PWM_0_duty          0x2               examples/src/pwm_basic_example.o
+ADC_0_measurement   0x2               examples/src/adc_basic_example.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ .bss           0x00000000        0x0 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ .text          0x00000000        0x0 atmel_start.o
+ .data          0x00000000        0x0 atmel_start.o
+ .bss           0x00000000        0x0 atmel_start.o
+ .text          0x00000000        0x0 driver_isr.o
+ .data          0x00000000        0x0 driver_isr.o
+ .bss           0x00000000        0x0 driver_isr.o
+ .debug_info    0x00000000       0x56 driver_isr.o
+ .debug_abbrev  0x00000000       0x26 driver_isr.o
+ .debug_aranges
+                0x00000000       0x18 driver_isr.o
+ .debug_line    0x00000000       0x1a driver_isr.o
+ .debug_str     0x00000000      0x19f driver_isr.o
+ .comment       0x00000000       0x31 driver_isr.o
+ .text          0x00000000        0x0 examples/src/adc_basic_example.o
+ .data          0x00000000        0x0 examples/src/adc_basic_example.o
+ .bss           0x00000000        0x0 examples/src/adc_basic_example.o
+ .text.ADC_0_test_adc_basic
+                0x00000000       0x28 examples/src/adc_basic_example.o
+ .debug_info    0x00000000      0x106 examples/src/adc_basic_example.o
+ .debug_abbrev  0x00000000       0xa3 examples/src/adc_basic_example.o
+ .debug_loc     0x00000000       0x2f examples/src/adc_basic_example.o
+ .debug_aranges
+                0x00000000       0x20 examples/src/adc_basic_example.o
+ .debug_ranges  0x00000000       0x10 examples/src/adc_basic_example.o
+ .debug_line    0x00000000       0xd7 examples/src/adc_basic_example.o
+ .debug_str     0x00000000      0x23d examples/src/adc_basic_example.o
+ .comment       0x00000000       0x31 examples/src/adc_basic_example.o
+ .debug_frame   0x00000000       0x30 examples/src/adc_basic_example.o
+ COMMON         0x00000000        0x3 examples/src/adc_basic_example.o
+ .text          0x00000000        0x0 examples/src/pwm_basic_example.o
+ .data          0x00000000        0x0 examples/src/pwm_basic_example.o
+ .bss           0x00000000        0x0 examples/src/pwm_basic_example.o
+ .text.PWM_0_pwm_handler_cb
+                0x00000000       0x20 examples/src/pwm_basic_example.o
+ .text.PWM_0_test_pwm_basic
+                0x00000000       0x24 examples/src/pwm_basic_example.o
+ .bss.PWM_0_isr_executed_counter
+                0x00000000        0x2 examples/src/pwm_basic_example.o
+ .debug_info    0x00000000      0x17a examples/src/pwm_basic_example.o
+ .debug_abbrev  0x00000000       0xc8 examples/src/pwm_basic_example.o
+ .debug_aranges
+                0x00000000       0x28 examples/src/pwm_basic_example.o
+ .debug_ranges  0x00000000       0x18 examples/src/pwm_basic_example.o
+ .debug_line    0x00000000      0x115 examples/src/pwm_basic_example.o
+ .debug_str     0x00000000      0x280 examples/src/pwm_basic_example.o
+ .comment       0x00000000       0x31 examples/src/pwm_basic_example.o
+ .debug_frame   0x00000000       0x34 examples/src/pwm_basic_example.o
+ COMMON         0x00000000        0x2 examples/src/pwm_basic_example.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 src/adc_basic.o
+ .data          0x00000000        0x0 src/adc_basic.o
+ .bss           0x00000000        0x0 src/adc_basic.o
+ .text.ADC_0_enable
+                0x00000000        0x4 src/adc_basic.o
+ .text.ADC_0_disable
+                0x00000000        0x4 src/adc_basic.o
+ .text.ADC_0_start_conversion
+                0x00000000       0x10 src/adc_basic.o
+ .text.ADC_0_is_conversion_done
+                0x00000000        0x8 src/adc_basic.o
+ .text.ADC_0_get_conversion_result
+                0x00000000        0xa src/adc_basic.o
+ .text.ADC_0_get_resolution
+                0x00000000        0x4 src/adc_basic.o
+ .text          0x00000000        0x0 src/driver_init.o
+ .data          0x00000000        0x0 src/driver_init.o
+ .bss           0x00000000        0x0 src/driver_init.o
+ .text.ADC_0_initialization
+                0x00000000        0x6 src/driver_init.o
+ .text.PWM_0_initialization
+                0x00000000        0x2 src/driver_init.o
+ .text          0x00000000        0x0 src/protected_io.o
+ .data          0x00000000        0x0 src/protected_io.o
+ .bss           0x00000000        0x0 src/protected_io.o
+ .text          0x00000000        0x0 src/pwm_basic.o
+ .data          0x00000000        0x0 src/pwm_basic.o
+ .bss           0x00000000        0x0 src/pwm_basic.o
+ .text.PWM_0_enable
+                0x00000000        0x8 src/pwm_basic.o
+ .text.PWM_0_disable
+                0x00000000        0x8 src/pwm_basic.o
+ .text.PWM_0_enable_output_ch1
+                0x00000000        0x6 src/pwm_basic.o
+ .text.PWM_0_disable_output_ch1
+                0x00000000        0x6 src/pwm_basic.o
+ .text.PWM_0_load_counter
+                0x00000000        0x6 src/pwm_basic.o
+ .text.PWM_0_load_top
+                0x00000000        0x6 src/pwm_basic.o
+ .text.PWM_0_load_duty_cycle_ch1
+                0x00000000        0x6 src/pwm_basic.o
+ .text          0x00000000        0x0 src/time.o
+ .data          0x00000000        0x0 src/time.o
+ .bss           0x00000000        0x0 src/time.o
+ .text          0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00000400         xr
+data             0x00800040         0x00000020         rw !x
+config           0x00820000         0x00000001         rw !x
+lock             0x00830000         0x00000002         rw !x
+signature        0x00840000         0x00000004         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00004000                __RODATA_PM_OFFSET__ = 0x4000
+LOAD C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+LOAD atmel_start.o
+LOAD driver_isr.o
+LOAD examples/src/adc_basic_example.o
+LOAD examples/src/pwm_basic_example.o
+LOAD main.o
+LOAD src/adc_basic.o
+LOAD src/driver_init.o
+LOAD src/protected_io.o
+LOAD src/pwm_basic.o
+LOAD src/time.o
+START GROUP
+LOAD c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrtiny\libm.a
+END GROUP
+START GROUP
+LOAD c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a
+LOAD c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrtiny\libm.a
+LOAD c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avrtiny\libc.a
+LOAD C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny\libattiny104.a
+END GROUP
+                [0x00000000]                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800040]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800040
+                [0x00000400]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x1000
+                [0x00000020]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0x100
+                [0x00000001]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x2
+                0x00000002                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x2
+                0x00000004                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x4
+                0x00004000                __RODATA_PM_OFFSET__ = DEFINED (__RODATA_PM_OFFSET__)?__RODATA_PM_OFFSET__:0x4000
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0x38c
+ *(.vectors)
+ .vectors       0x00000000       0x20 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000020                . = ALIGN (0x2)
+                0x00000020                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000020        0x0 linker stubs
+ *(.trampolines*)
+                0x00000020                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x00000020                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000020                __ctors_start = .
+ *(.ctors)
+                0x00000020                __ctors_end = .
+                0x00000020                __dtors_start = .
+ *(.dtors)
+                0x00000020                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000020        0x0 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+                0x00000020                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000020        0xc C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000002c       0x16 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_copy_data.o)
+                0x0000002c                __do_copy_data
+ .init4         0x00000042       0x10 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_clear_bss.o)
+                0x00000042                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000052        0x4 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ *(.init9)
+ *(.text)
+ .text          0x00000056        0x2 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+                0x00000056                __vector_1
+                0x00000056                __vector_12
+                0x00000056                __bad_interrupt
+                0x00000056                __vector_6
+                0x00000056                __vector_3
+                0x00000056                __vector_11
+                0x00000056                __vector_13
+                0x00000056                __vector_7
+                0x00000056                __vector_4
+                0x00000056                __vector_9
+                0x00000056                __vector_2
+                0x00000056                __vector_15
+                0x00000056                __vector_8
+                0x00000056                __vector_14
+                0x00000056                __vector_10
+                0x00000058                . = ALIGN (0x2)
+ *(.text.*)
+ .text.atmel_start_init
+                0x00000058        0x2 atmel_start.o
+                0x00000058                atmel_start_init
+ .text.startup.main
+                0x0000005a      0x1e6 main.o
+                0x0000005a                main
+ .text.ADC_0_init
+                0x00000240       0x18 src/adc_basic.o
+                0x00000240                ADC_0_init
+ .text.ADC_0_get_conversion
+                0x00000258       0x1e src/adc_basic.o
+                0x00000258                ADC_0_get_conversion
+ .text.system_init
+                0x00000276       0x5c src/driver_init.o
+                0x00000276                system_init
+ .text.protected_write_io
+                0x000002d2        0xa src/protected_io.o
+                0x000002d2                protected_write_io
+ .text.PWM_0_init
+                0x000002dc       0x28 src/pwm_basic.o
+                0x000002dc                PWM_0_init
+ .text.PWM_0_enable_output_ch0
+                0x00000304        0x8 src/pwm_basic.o
+                0x00000304                PWM_0_enable_output_ch0
+ .text.PWM_0_disable_output_ch0
+                0x0000030c        0x6 src/pwm_basic.o
+                0x0000030c                PWM_0_disable_output_ch0
+ .text.PWM_0_load_duty_cycle_ch0
+                0x00000312        0x6 src/pwm_basic.o
+                0x00000312                PWM_0_load_duty_cycle_ch0
+ .text.PWM_0_register_callback
+                0x00000318        0x6 src/pwm_basic.o
+                0x00000318                PWM_0_register_callback
+ .text.__vector_5
+                0x0000031e       0x56 src/pwm_basic.o
+                0x0000031e                __vector_5
+ .text.TIME_Callback
+                0x00000374        0x6 src/time.o
+ .text.TIME_Init
+                0x0000037a        0x6 src/time.o
+                0x0000037a                TIME_Init
+ .text.TIME_IsOneSecondPassed
+                0x00000380        0x8 src/time.o
+                0x00000380                TIME_IsOneSecondPassed
+                0x00000388                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000388        0x0 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+                0x00000388                _exit
+                0x00000388                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000388        0x4 c:/programy/microchipstudio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avrtiny\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000038c                _etext = .
+
+.rodata         0x0000438c       0x32 load address 0x0000038c
+ *(.rodata)
+ *(.rodata*)
+ .rodata.MOTOR_ThresholdsDuration_s
+                0x0000438c       0x32 main.o
+ *(.gnu.linkonce.r*)
+
+.data           0x00800040        0x2 load address 0x000003be
+                0x00800040                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.turned_on_leds.2071
+                0x00800040        0x1 main.o
+ *(.gnu.linkonce.d*)
+                0x00800042                . = ALIGN (0x2)
+ *fill*         0x00800041        0x1 
+                0x00800042                _edata = .
+                0x00800042                PROVIDE (__data_end, .)
+
+.bss            0x00800042        0x8
+                0x00800042                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.is_motor_working
+                0x00800042        0x1 main.o
+ .bss.motor_time_of_work_counter_s
+                0x00800043        0x2 main.o
+ .bss.current_level
+                0x00800045        0x1 main.o
+ .bss.callback_count.1836
+                0x00800046        0x1 src/pwm_basic.o
+ .bss.PWM_0_cb  0x00800047        0x2 src/pwm_basic.o
+                0x00800047                PWM_0_cb
+ .bss.one_second
+                0x00800049        0x1 src/time.o
+ *(COMMON)
+                0x0080004a                PROVIDE (__bss_end, .)
+                0x000003be                __data_load_start = LOADADDR (.data)
+                0x000003c0                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080004a        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x0080004a                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.config
+ *(.config*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 atmel_start.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 main.o
+ .comment       0x00000030       0x31 src/adc_basic.o
+ .comment       0x00000030       0x31 src/driver_init.o
+ .comment       0x00000030       0x31 src/pwm_basic.o
+ .comment       0x00000030       0x31 src/time.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x188
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 atmel_start.o
+ .debug_aranges
+                0x00000020       0x20 main.o
+ .debug_aranges
+                0x00000040       0x58 src/adc_basic.o
+ .debug_aranges
+                0x00000098       0x30 src/driver_init.o
+ .debug_aranges
+                0x000000c8       0x20 src/protected_io.o
+ .debug_aranges
+                0x000000e8       0x70 src/pwm_basic.o
+ .debug_aranges
+                0x00000158       0x30 src/time.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x2bce
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x401 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ .debug_info    0x00000401       0x94 atmel_start.o
+ .debug_info    0x00000495     0x1597 main.o
+ .debug_info    0x00001a2c      0x1da src/adc_basic.o
+ .debug_info    0x00001c06      0xc11 src/driver_init.o
+ .debug_info    0x00002817       0x7e src/protected_io.o
+ .debug_info    0x00002895      0x237 src/pwm_basic.o
+ .debug_info    0x00002acc      0x102 src/time.o
+
+.debug_abbrev   0x00000000      0xadb
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x3c7 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ .debug_abbrev  0x000003c7       0x66 atmel_start.o
+ .debug_abbrev  0x0000042d      0x1f1 main.o
+ .debug_abbrev  0x0000061e      0x12e src/adc_basic.o
+ .debug_abbrev  0x0000074c      0x195 src/driver_init.o
+ .debug_abbrev  0x000008e1       0x14 src/protected_io.o
+ .debug_abbrev  0x000008f5      0x111 src/pwm_basic.o
+ .debug_abbrev  0x00000a06       0xd5 src/time.o
+
+.debug_line     0x00000000      0xb94
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0xf8 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ .debug_line    0x000000f8       0x60 atmel_start.o
+ .debug_line    0x00000158      0x36d main.o
+ .debug_line    0x000004c5      0x1bf src/adc_basic.o
+ .debug_line    0x00000684      0x23a src/driver_init.o
+ .debug_line    0x000008be       0x5b src/protected_io.o
+ .debug_line    0x00000919      0x1e8 src/pwm_basic.o
+ .debug_line    0x00000b01       0x93 src/time.o
+
+.debug_frame    0x00000000      0x284
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x24 atmel_start.o
+ .debug_frame   0x00000024       0x24 main.o
+ .debug_frame   0x00000048       0x94 src/adc_basic.o
+ .debug_frame   0x000000dc       0x44 src/driver_init.o
+ .debug_frame   0x00000120      0x120 src/pwm_basic.o
+ .debug_frame   0x00000240       0x44 src/time.o
+
+.debug_str      0x00000000      0x982
+ *(.debug_str)
+ .debug_str     0x00000000      0x166 C:/Programy/MicrochipStudio/7.0/Packs/Atmel/ATtiny_DFP/1.9.337/gcc/dev/attiny104/avrtiny/crtattiny104.o
+ .debug_str     0x00000166      0x189 atmel_start.o
+                                0x1bd (size before relaxing)
+ .debug_str     0x000002ef      0x266 main.o
+                                0x40a (size before relaxing)
+ .debug_str     0x00000555       0xbf src/adc_basic.o
+                                0x27f (size before relaxing)
+ .debug_str     0x00000614      0x248 src/driver_init.o
+                                0x4aa (size before relaxing)
+ .debug_str     0x0000085c       0xff src/pwm_basic.o
+                                0x2e1 (size before relaxing)
+ .debug_str     0x0000095b       0x27 src/time.o
+                                0x200 (size before relaxing)
+
+.debug_loc      0x00000000      0xdbe
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x910 main.o
+ .debug_loc     0x00000910       0x63 src/adc_basic.o
+ .debug_loc     0x00000973      0x39a src/driver_init.o
+ .debug_loc     0x00000d0d       0xb1 src/pwm_basic.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x1e8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x10 atmel_start.o
+ .debug_ranges  0x00000010       0xf0 main.o
+ .debug_ranges  0x00000100       0x48 src/adc_basic.o
+ .debug_ranges  0x00000148       0x20 src/driver_init.o
+ .debug_ranges  0x00000168       0x60 src/pwm_basic.o
+ .debug_ranges  0x000001c8       0x20 src/time.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(Soft_start.elf elf32-avr)
+LOAD linker stubs
