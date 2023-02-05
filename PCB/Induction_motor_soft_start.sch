@@ -14786,8 +14786,6 @@ Text Notes 9200 4250 0    50   ~ 0
 LOAD_DET: \n- 0 - MOTOR ON\n- 1 - MOTOR OFF
 Text Notes 8325 5400 0    50   ~ 0
 CONTROL IN \nPWM ~100Hz\nOC0A
-Text Notes 1250 5400 0    50   ~ 0
-Może gasik?
 $Bitmap
 Pos 4100 5650
 Scale 2.000000
@@ -17016,4 +17014,10 @@ Text Label 2025 1725 3    50   ~ 0
 PB2_(CDCRX)
 Text Label 2350 1725 3    50   ~ 0
 PA5_(User_LED)
+Wire Notes Line
+	3625 4400 3625 3975
+Wire Notes Line
+	3625 3975 3075 3975
+Text Notes 1900 3950 0    50   ~ 0
+Triac changed to BTA16-600BW (intended to use with induction load without snubber circuit. 
 $EndSCHEMATC
