@@ -15,7 +15,10 @@ KiCAD 5.1.5 and Microchip studio 7.0
 ## Hardware
 Hardware based on [AVT1007](https://sklep.avt.pl/avt1007.html) and [ATTINY104 XPLAINED NANO EVALUATION KIT](https://www.microchip.com/en-us/development-tool/attiny104-xnano). Potentiometer on AVT1007 is set to minimum (triac almost closed). 10uF capacitor was added in parallel to C3 capacitor. PWM from Attiny104 is used to charge the 10 uF capacitor and change the speed of the motor. U2008 IC has a U/I phases shift compensation and triggering pulse is generated when the voltage on C3 reaches the voltage on C2. Additional potentiometer on AVT1007 kit is used to control the speed of charging C2 capacitor.
 
+Triac on AVT1007 was changed to BTA16-600BW (intended to used with induction load).
+
 ![obraz](https://user-images.githubusercontent.com/33268158/216825864-0ec04b10-0045-41b2-99f3-120b53c3d526.png)
 
 ## Knowing issues
 - Sometimes when device starts motor again and again, 10 uF capacitor stays charged and motor speed is set to high value. After restart of the device there is no problem.
+- There was a problem with an update of the firmware for the debugger on Attiny104 Xplained N board. EPRG_BOOT should be shorted to the GND during power up. After that in device manager drivers for ATmega32U4-MUR should be installed. Microchip Studio then see ATmega32U4-MUR as a USB device and it is possible to update firmware for mEDBG from one of the IDE's folders.
